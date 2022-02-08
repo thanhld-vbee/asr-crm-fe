@@ -1,0 +1,15 @@
+const ORDER_STATE = {
+  PROCESSING: 0,
+  SUCCESS: 1,
+  FAILED: 2,
+};
+
+const ORDER_STATUS = {
+  PAID: 'PAID',
+  PENDING: 'PENDING',
+  CANCEL: 'CANCEL',
+};
+
+const HAVE_NO_ORDER = 'HAVE_NO_ORDER';
+
+export { ORDER_STATE, ORDER_STATUS, HAVE_NO_ORDER };
