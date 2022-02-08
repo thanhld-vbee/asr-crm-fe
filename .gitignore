@@ -94,3 +94,5 @@ typings/
 .dynamodb/
 .env
 .vscode/
+.DS_Store
+.idea/**
